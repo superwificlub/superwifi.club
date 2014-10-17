@@ -6,8 +6,8 @@ Remove the ability to login as `root` via `ssh`.
 
 ### Create `.ssh` and `.ssh/authorized_keys`
 
-As user `root` on `superwifi.club`:
-
+    ssh root@superwifi.club
+ 
     cd ~ && echo `pwd`
 
     # make `.ssh`
