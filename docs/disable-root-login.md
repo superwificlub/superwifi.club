@@ -29,7 +29,7 @@ On your **home machine**:
     cd ~ && echo `pwd`
     cat .ssh/id_rsa.pub | ssh root@superwifi.club 'cat >> .ssh/authorized_keys'
 
-**IMPORTANT** Test you can ssh into `superwifi.club` as `root` without having to enter a password:
+**It's important** that you test you can ssh into `superwifi.club` as `root` without having to enter a password:
 
     ssh root@superwifi.club
 
