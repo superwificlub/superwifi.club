@@ -1,5 +1,5 @@
 # moi
-# set from        =   "user@superwifi.club"
+# set from        =   "tony@superwifi.club"
 # set realname    =   "Tony Stark"
 
 # init
@@ -21,9 +21,8 @@ set tilde                     # fill out messages with ~
 
 # sending
 set abort_nosubject = no      # if set to no, composing messages with no subject given at the subject prompt will never be aborted.
-set copy = yes                # save copies of emails sent as defined in the `record` variable
+set copy = yes                # save copies of emails sent as defined in the `record` variable
 set editor = "vim"            # vim vim vim
 set fast_reply                # the initial prompt for recipients and subject are skipped when replying to messages
 set include                   # Controls whether or not a copy of the message(s) you are replying to is included in your reply
 set send_charset="utf-8"      # A list of character sets for outgoing message
-#unset record                  # do not append a copy of every email you send to a file on your hard drive
