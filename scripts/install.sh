@@ -13,7 +13,7 @@ echo "# INSTALL APPLICATIONS ############"
 echo "###################################"
 
 # install software without asking for confirmation
-sudo apt-get --assume-yes install irssi git lynx mutt finger tmux tree vim
+sudo apt-get --assume-yes install finger git irssi lynx mutt tmux tree vim
 
 echo "###################################"
 echo "# INSTALL APACHE ##################"
