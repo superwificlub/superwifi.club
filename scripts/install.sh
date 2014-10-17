@@ -35,8 +35,8 @@ echo "###################################"
 # install postfix
 sudo apt-get --assume-yes install postfix
 
-# NOTE: Select `Local Only`
-# NOTE: Enter hostname eg: `superwifi.club`
+# NOTE: Select `Local only`
+# NOTE: Enter the name of your domain eg: `superwifi.club`
 
 echo "###################################"
 echo "# SET UP USER DEFAULTS ############"
