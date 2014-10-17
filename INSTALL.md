@@ -34,3 +34,7 @@ As this is me, I'm going to add myself to the `sudo` group:
 ## Disable root login
 
 This is important because it increases the security of your machine. There's a separate document [`disable-root-login.md`](/docs/disable-root-login.md) that'll walk you through the process.
+
+## Add anotheruser
+
+    sudo adduser bill
