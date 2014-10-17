@@ -39,4 +39,4 @@ Search for `PermitRootLogin` and change `yes` to `without-password`
 
 Restart `ssh`
 
-    service sshd restart
+    service ssh restart
