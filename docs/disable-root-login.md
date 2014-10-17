@@ -39,6 +39,6 @@ On your **home machine**:
 
 Search for `PermitRootLogin` and change `yes` to `without-password`
 
-Restart `ssh`
+Restart `ssh`:
 
     service ssh restart
