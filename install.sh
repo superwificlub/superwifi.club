@@ -2,8 +2,11 @@ echo "#################################"
 echo "# SET UP DEBIAN BOX #############"
 echo "#################################"
 
-# update/upgrade the debian box without asking for confirmation
-sudo apt-get update && sudo apt-get -y upgrade
+# update packages
+sudo apt-get update
+
+# upgrade the box without asking for confirmation
+sudo apt-get --assume-yes upgrade
 
 echo "###################################"
 echo "# INSTALL APPLICATIONS ############"
@@ -13,7 +16,7 @@ echo "###################################"
 sudo apt-get --assume-yes install irssi git lynx mutt finger tmux tree vim
 
 echo "###################################"
-echo "# SET UP APACHE ###################"
+echo "# INSTALL APACHE ##################"
 echo "###################################"
 
 # install apache
@@ -25,12 +28,15 @@ sudo a2enmod userdir
 # restart Apache
 service apache2 restart
 
-# echo "###################################"
-# echo "# SET UP POSTFIX ##################"
-# echo "###################################"
+echo "###################################"
+echo "# INSTALL POSTFIX #################"
+echo "###################################"
 
 # install postfix
-# sudo apt-get --assume-yes install postfix
+sudo apt-get --assume-yes install postfix
+
+# NOTE: Select `Local Only`
+# NOTE: Enter hostname eg: `superwifi.club`
 
 echo "###################################"
 echo "# SET UP USER DEFAULTS ############"
