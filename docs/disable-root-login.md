@@ -2,6 +2,8 @@
 
 Remove the ability to login as `root` via `ssh`.
 
+If you don't have an SSH key [here's how to generate one](https://help.github.com/articles/generating-ssh-keys/).
+
 ## Add your public key to `superwifi.club`
 
 ### Create `.ssh` and `.ssh/authorized_keys`
