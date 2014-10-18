@@ -1,11 +1,11 @@
 # moi
-# set from        =   "tony@superwifi.club"
-# set realname    =   "Tony Stark"
+# set from        =   "usernamey@superwifi.club"
+# set realname    =   "User Name"
 
 # init
 set mbox_type = maildir
 set mbox="~/mail/inbox/"
-# set spoolfile="/var/spool/mail/tony"
+# set spoolfile="/var/spool/mail/username"
 set folder = "~/mail/"
 set record = "~/mail/sent/"
 set postponed = "~/mail/drafts/"
