@@ -60,11 +60,8 @@ mkdir public_html
 # drwxr-xr-x
 chmod 755 public_html
 
-# make `public_html/index.html`
-touch public_html/index.html
-# words
-echo "<h1>This is my superwifi.club page!</h1>" > public_html/index.html
-echo "<p>Log in with your secure shell to change this message.</p>" >> public_html/index.html
+# make `public_html/index.html` and populate from `community` repo
+wget -q https://raw.githubusercontent.com/superwificlub/community/master/public_html/index.html -O public_html/index.html
 # -rw-r--r-
 chmod 644 public_html/index.html
 
