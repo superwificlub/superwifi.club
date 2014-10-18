@@ -1,6 +1,6 @@
 # How to `superwifi.club`
 
-## Disclaimer
+## Disclaimer
 
 Things will probably break.
 
