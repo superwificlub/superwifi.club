@@ -63,7 +63,8 @@ chmod 755 public_html
 # make `public_html/index.html`
 touch public_html/index.html
 # words
-echo "<h1>This is my superwifi.club page!</h1><p>Log in with your secure shell to change this message.</p>" > public_html/index.html
+echo "<h1>This is my superwifi.club page!</h1>" > public_html/index.html
+echo "<p>Log in with your secure shell to change this message.</p>" >> public_html/index.html
 # -rw-r--r-
 chmod 644 public_html/index.html
 
