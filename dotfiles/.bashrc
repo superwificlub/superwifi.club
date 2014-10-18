@@ -5,8 +5,8 @@ export PS1="\[\e[00;37m\]\h \w \[\e[0m\]\[\e[00;35m\]\\$\[\e[0m\]\[\e[00;37m\] \
 # export PS1="\[\e[00;36m\]\u\[\e[0m\]\[\e[00;37m\]@\[\e[0m\]\[\e[00;32m\]\h\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;33m\]\w\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;35m\]%\[\e[0m\]\[\e[00;37m\] \[\e[0m\]"
 
 # set default editors
-EDITOR=/usr/bin/vim           # set vim to be the default editor
-VISUAL=/usr/bin/vim           # set vim to be the default editor
+EDITOR=/usr/bin/vim
+VISUAL=/usr/bin/vim
 
 # use vim mode in bash
 set -o vi
@@ -17,7 +17,6 @@ alias g='git'
 alias grep='grep --color=auto'
 alias j='jump'
 alias ls='ls -lags'
-alias nano='vim'
 alias qq='git status -sb'
 alias sudo='sudo '
 alias tmn="tmux new-session -s"
@@ -25,8 +24,6 @@ alias tml="tmux ls"
 alias tma="tmux attach-session -t"
 alias tms="tmux switch-session -t"
 alias tree="tree -C"
-alias v='vim'
-alias vi='vim'
 
 # http://jeroenjanssens.com/2013/08/16/quickly-navigate-your-filesystem-from-the-command-line.html
 export MARKPATH=$HOME/.marks
