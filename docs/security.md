@@ -39,8 +39,6 @@ Restart `ssh`:
 
     service ssh restart
 
-This is important for the security of your server. I've put together a separate document [`disable-root-login.md`](/docs/disable-root-login.md) that'll walk you through the process.
-
 ## Disable `su` command
 
 Unless you're a member of the `root` group. Basically you don't want folk to be able to use the `su` command unless they're the `root` user:
