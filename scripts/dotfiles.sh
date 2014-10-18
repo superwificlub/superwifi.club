@@ -1,12 +1,12 @@
 echo "get .bash.profile"
-curl https://raw.githubusercontent.com/superwificlub/superwifi.club/master/dotfiles/.bash_profile /etc/skel/.bash_profile
+wget -q https://raw.githubusercontent.com/superwificlub/superwifi.club/master/dotfiles/.bash_profile -O /etc/skel/.bash_profile
 echo "get .bashrc"
-curl https://raw.githubusercontent.com/superwificlub/superwifi.club/master/dotfiles/.bashrc /etc/skel/.bashrc
+wget -q https://raw.githubusercontent.com/superwificlub/superwifi.club/master/dotfiles/.bashrc -O /etc/skel/.bashrc
 echo "get .gitconfig"
-curl https://raw.githubusercontent.com/superwificlub/superwifi.club/master/dotfiles/.gitconfig /etc/skel/.gitconfig
+wget -q https://raw.githubusercontent.com/superwificlub/superwifi.club/master/dotfiles/.gitconfig -O /etc/skel/.gitconfig
 echo "get .gitignore_global"
-curl https://raw.githubusercontent.com/superwificlub/superwifi.club/master/dotfiles/.gitignore_global /etc/skel/.gitignore_global
+wget -q https://raw.githubusercontent.com/superwificlub/superwifi.club/master/dotfiles/.gitignore_global -O /etc/skel/.gitignore_global
 echo "get .plan"
-curl https://raw.githubusercontent.com/superwificlub/superwifi.club/master/dotfiles/.plan /etc/skel/.plan
+wget -q https://raw.githubusercontent.com/superwificlub/superwifi.club/master/dotfiles/.plan -O /etc/skel/.plan
 echo "get .muttrc"
-curl https://raw.githubusercontent.com/superwificlub/superwifi.club/master/dotfiles/.muttrc /etc/skel/.muttrc
+wget -q https://raw.githubusercontent.com/superwificlub/superwifi.club/master/dotfiles/.muttrc -O /etc/skel/.muttrc
