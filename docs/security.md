@@ -56,3 +56,7 @@ Uncomment out the wheel line of this block like so:
     # permitted earlier by e.g. "sufficient pam_rootok.so").
     # (Replaces the `SU_WHEEL_ONLY' option from login.defs)
     auth       required   pam_wheel.so
+
+## Install `fail2ban`
+
+TODO
