@@ -33,9 +33,10 @@ Visit [superwifi.club](http://superwifi.club) and you should get a page saying `
 
 ## What's next?
 
-You should now have a basic installation running of everything you need to begin onboarding users!
+You should now have a basic installation running of everything you need! There still a bit more to do...
 
-Here's a bunch of docs I've put together about what you should do next:
+Here's a bunch of docs I've put together about what's next:
 
 1. [Security](docs/security.md)
-2. [Create new users](docs/creating-users.md)
+2. [dotdiles](docs/dotfiles.md)
+3. [Create new users](docs/creating-users.md)
