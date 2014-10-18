@@ -18,7 +18,7 @@ Make backups, read scripts and have fun.
 
     ssh root@superwifi.club
     wget https://raw.githubusercontent.com/superwificlub/superwifi.club/master/scripts/install.sh
-    sh install
+    sh install.sh
 
 ### A note about `postfix`
 
