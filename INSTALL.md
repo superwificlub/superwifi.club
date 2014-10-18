@@ -1,5 +1,11 @@
 # How to `superwifi.club`
 
+## Disclaimer
+
+Things will probably break.
+
+Make backups, read scripts and have fun.
+
 ## Preamble
 
 * You should be comfortable with Unix and using the command line
@@ -21,20 +27,12 @@ When the script installs `postfix` a blue screen will appear and will ask you fo
 1. The 1st dialogue will ask you to choose a `General type of mail configuration`. Choose `Local only`
 2. The 2nd dialogue will ask you to enter a `System mail name`. Enter the name of your domain eg: `superwifi.club`
 
-## Create your first user `rey`
+## Test
 
-You should choose another username unless your name is `rey`:
+If you now visit [superwifi.club](http://superwifi.club) you should get a page saying `It works!`.
 
-    sudo adduser rey
+## What's next?
 
-As this is me, I'm going to add myself to the `sudo` group:
+You should now have a basic installation running of everything you need to begin onboarding users!
 
-    sudo adduser rey sudo
-
-## Disable root login
-
-This is important because it increases the security of your machine. There's a separate document [`disable-root-login.md`](/docs/disable-root-login.md) that'll walk you through the process.
-
-## Add another user
-
-    sudo adduser bill
+Check out [post-install.md](docs/post-install.md) to read about optional next steps.
