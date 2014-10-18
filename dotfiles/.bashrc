@@ -9,7 +9,7 @@ EDITOR=/usr/bin/vim
 VISUAL=/usr/bin/vim
 
 # use vim mode in bash
-set -o vi
+# set -o vi
 
 # aliases
 alias hash='date | md5sum | cut -c 1-6'
