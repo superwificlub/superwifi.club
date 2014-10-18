@@ -38,5 +38,5 @@ You should now have a basic installation running of everything you need! There s
 Here's a bunch of docs I've put together about what's next:
 
 1. [Security](docs/security.md)
-2. Install [dotfiles](docs/dotfiles.md)
+2. [Install dotfiles](docs/dotfiles.md)
 3. [Create new users](docs/creating-users.md)
