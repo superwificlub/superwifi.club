@@ -3,7 +3,7 @@
 ## Preamble
 
 * You should be comfortable with Unix and using the command line
-* You should have a machine running a fresh install of `Debian 7.0 x64` (this guide has been written using [Digital Ocean](https://digitalocean.com))
+* You should have a machine running a fresh install of `Debian 7.0 x64` (this guide has been written using a [Digital Ocean](https://digitalocean.com) cloud (:cloud:) server)
 * The domain `superwifi.club` has been used but could be substituted for `roflcat.club` if that's the name of your domain
 
 ## Use `install.sh` to set up your server
