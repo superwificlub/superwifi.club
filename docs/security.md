@@ -2,7 +2,7 @@
 
 ## Disable login as `root` via `ssh`
 
-If you don't have an SSH key [here's how to generate one](https://help.github.com/articles/generating-ssh-keys/).
+**You'll need an SSH key** [here's how to generate one](https://help.github.com/articles/generating-ssh-keys/) if you don't have one.
 
 ### Create `.ssh` and `.ssh/authorized_keys`
 
@@ -41,12 +41,12 @@ Restart `ssh`:
 
 ## Disable `su` command
 
-Unless you're a member of the `root` group. Basically you don't want folk to be able to use the `su` command unless they're the `root` user:
+You don't want folk to be able to use the `su` command unless they're the `root` user:
 
     ssh root@superwifi.club
     vim /etc/pam.d/su
 
-Uncomment out the wheel line of this block:
+Uncomment out the wheel line of this block like so:
 
     # Uncomment this to force users to be a member of group root
     # before they can use `su'. You can also add "group=foo"
