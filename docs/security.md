@@ -1,6 +1,6 @@
 # Security
 
-## Remove the ability to login as `root` via `ssh`.
+## Remove the ability to login as `root` via `ssh`
 
 If you don't have an SSH key [here's how to generate one](https://help.github.com/articles/generating-ssh-keys/).
 
