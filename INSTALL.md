@@ -20,7 +20,7 @@ Make backups, read scripts and have fun.
     wget https://raw.githubusercontent.com/superwificlub/superwifi.club/master/scripts/install.sh
     sh install.sh
 
-### A note about `Postfix
+### A note about Postfix
 
 When the script installs `postfix` a blue screen will appear and will ask you for 2 things:
 
