@@ -6,7 +6,7 @@ That said, I think they're quite light and a good set of defaults.
 
 ## Install dotfiles to `/etc/skel`
 
-We'll be installing these to `/etc/skel` as they'll become the default dotfiles each new user is created with:
+We'll be installing these to `/etc/skel` as they'll become the default dotfiles each new user is created with.
 
 :boom: Be sure you read [`dotfiles.sh`](../scripts/dotfiles.sh) and understand what it's doing to your machine.
 
