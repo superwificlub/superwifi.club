@@ -1,4 +1,4 @@
-# How to `superwifi.club`
+# How to create superwifi.club
 
 ## Disclaimer
 
@@ -12,7 +12,7 @@ Make backups, read scripts and have fun.
 * You should have a machine running a fresh install of `Debian 7.0 x64` (this guide has been written using a [Digital Ocean](https://digitalocean.com) cloud (:cloud:) server)
 * The domain `superwifi.club` has been used but substitute for `roflcat.club` or whatever your domain name is
 
-## Use `install.sh` to set up your server
+## Use the Install script to set up your server
 
 :boom: Be sure you read [`install.sh`](scripts/install.sh) and understand what it's doing to your machine.
 
@@ -20,7 +20,7 @@ Make backups, read scripts and have fun.
     wget https://raw.githubusercontent.com/superwificlub/superwifi.club/master/scripts/install.sh
     sh install.sh
 
-### A note about `postfix`
+### A note about `Postfix
 
 When the script installs `postfix` a blue screen will appear and will ask you for 2 things:
 
