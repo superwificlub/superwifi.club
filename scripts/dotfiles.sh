@@ -10,3 +10,5 @@ echo "get .plan"
 wget -q https://raw.githubusercontent.com/superwificlub/superwifi.club/master/dotfiles/.plan -O /etc/skel/.plan
 echo "get .muttrc"
 wget -q https://raw.githubusercontent.com/superwificlub/superwifi.club/master/dotfiles/.muttrc -O /etc/skel/.muttrc
+echo "get .tmux.conf"
+wget -q https://raw.githubusercontent.com/superwificlub/superwifi.club/master/dotfiles/.tmux.conf -O /etc/skel/.tmux.conf
