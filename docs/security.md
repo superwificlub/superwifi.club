@@ -59,4 +59,6 @@ Uncomment out the wheel line of this block like so:
 
 ## Install `fail2ban`
 
-TODO
+    ssh root@superwifi.club
+    apt-get install fail2ban
+
