@@ -15,3 +15,9 @@ As this is me, I'm going to add myself to the `sudo` group so I don't have to ke
     sudo adduser bill
 
 As this is a regular user, they don't need access to `sudo`.
+
+## Delete your second user `bill`
+
+    sudo userdel -r bill
+
+This will delete `bill`, his home directory and his mail spool
