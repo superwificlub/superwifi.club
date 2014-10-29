@@ -31,7 +31,7 @@ On your **personal machine** (like your laptop):
 
 ### Disable password login for user `root`
 
-    sudo vim /etc/ssh/sshd_config
+    vim /etc/ssh/sshd_config
 
 Search for `PermitRootLogin` and change `yes` to `without-password`
 
