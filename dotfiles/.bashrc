@@ -12,7 +12,6 @@ VISUAL=/usr/bin/vim
 # set -o vi
 
 # aliases
-alias dohash='date | md5sum | cut -c 1-6'
 alias g='git'
 alias grep='grep --color=auto'
 alias j='jump'
