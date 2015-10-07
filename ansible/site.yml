@@ -2,22 +2,19 @@
 ---
 
 - name: apply config to all nodes
-  hosts: vagrant
-  sudo: yes
+  hosts: all
+  # sudo: yes
   roles:
     - common
 
-
 - name: install webserver
-  hosts: vagrant
-  sudo: yes
+  hosts: all
+  # sudo: yes
   roles: 
     - web
 
 - name: install mailserver
-  hosts: vagrant
-  sudo: yes
+  hosts: all
+  # sudo: yes
   roles:
     - mail
-
-

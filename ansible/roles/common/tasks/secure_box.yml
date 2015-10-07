@@ -1,5 +1,7 @@
+# common > tasks > secure_box.yml
+
 - name: install fail2ban
-  apt: name=fail2ban update_cache=yes state=latest
+  apt: name=fail2ban state=present
 
 - name: disallow password login for root over SSH
   action: lineinfile dest=/etc/ssh/sshd_config regexp="^PermitRootLogin" line="PermitRootLogin without-password" state=present

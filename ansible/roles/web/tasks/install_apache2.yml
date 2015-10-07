@@ -2,7 +2,7 @@
 ---
 
 - name: install apache2
-  apt: name=apache2 update_cache=yes state=latest
+  apt: name=apache2 state=present
 
 - name: enabled userdir
   apache2_module: name=userdir state=present

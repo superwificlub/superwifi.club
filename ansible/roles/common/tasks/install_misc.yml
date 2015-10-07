@@ -1,0 +1,22 @@
+# common > tasks > install_misc.yml
+
+- name: install finger
+  apt: name=finger state=present
+
+- name: install git
+  apt: name=git state=present
+
+- name: install lynx
+  apt: name=lynx state=present
+
+- name: install mutt
+  apt: name=mutt state=present
+
+- name: install tmux
+  apt: name=tmux state=present
+
+- name: install tree
+  apt: name=tree state=present
+
+- name: install vim
+  apt: name=vim state=present

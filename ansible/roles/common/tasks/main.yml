@@ -1,5 +1,7 @@
 # common > tasks > main.yml
 ---
 
+- include: update_upgrade_box.yml
 - include: secure_box.yml
 - include: create_skel.yml
+- include: install_misc.yml
