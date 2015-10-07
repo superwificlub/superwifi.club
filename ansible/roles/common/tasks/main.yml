@@ -1,0 +1,5 @@
+# common > tasks > main.yml
+---
+
+- include: secure_box.yml
+- include: create_skel.yml

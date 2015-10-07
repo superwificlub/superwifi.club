@@ -1,0 +1,20 @@
+# site.yml
+---
+
+- name: apply config to all nodes
+  hosts: vagrant
+  roles:
+    - common
+
+
+- name: configure webserver
+  hosts: vagrant
+  roles: 
+    - web
+
+- name: configure mailserver
+  hosts: vagrant
+  roles:
+    - mail
+
+

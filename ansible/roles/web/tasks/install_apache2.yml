@@ -1,0 +1,10 @@
+# web > tasks > install_apache2.yml
+---
+
+- name: install apache2
+  apt: name=apache2 update_cache=yes state=latest
+
+- name: enabled userdir
+  apache2_module: name=userdir state=present
+  notify:
+    - restart apache2

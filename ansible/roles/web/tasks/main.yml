@@ -1,0 +1,4 @@
+# web > tasks > main.yml
+---
+
+- include: install_apache2.yml
