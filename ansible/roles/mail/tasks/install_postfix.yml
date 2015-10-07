@@ -2,7 +2,7 @@
 ---
 
 - name: set Postfix option hostname
-  deBconf: name=postifx question="postfix/mailname" value="{{ ansible_nodename }}" vtype="string"
+  debconf: name=postifx question="postfix/mailname" value="{{ ansible_nodename }}" vtype="string"
 
 - name: set Postfix option type as Local only
   debconf: name=postfix question="postfix/main_mailer_type" value="'Local only'" vtype="string"
