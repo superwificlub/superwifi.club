@@ -12,3 +12,12 @@
 
 - name: make mail with permissions 0700
   file: path=/etc/skel/mail state=directory mode=0700
+
+- name: clone dotfiles into temp
+  git: repo=https://github.com/superwificlub/dotfiles.git dest=/tmp/dotfiles
+
+- name: move dotfiles into /etc/skel/
+  shell: cp -r /tmp/dotfiles/. /etc/skel
+
+- name: remove /tmp/dotfiles
+  file: path=/tmp/dotfiles state=absent
