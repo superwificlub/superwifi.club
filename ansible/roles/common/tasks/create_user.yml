@@ -1,6 +1,0 @@
-# common > tasks > create_user.yml
----
-
-# - name: Create first user
-#   prompt: Your name?
-
