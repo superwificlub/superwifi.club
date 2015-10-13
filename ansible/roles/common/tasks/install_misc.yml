@@ -3,6 +3,9 @@
 - name: install finger
   apt: name=finger state=present
 
+- name: install git
+  apt: name=git state=present
+
 - name: install lynx
   apt: name=lynx state=present
 

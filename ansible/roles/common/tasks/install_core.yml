@@ -1,4 +1,0 @@
-# common > tasks > install_core.yml
-
-- name: install git
-  apt: name=git state=present
