@@ -1,4 +1,4 @@
-# common > tasks > install_misc.yml
+# common > tasks > 03_install_software.yml
 
 - name: install finger
   apt: name=finger state=present

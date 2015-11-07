@@ -1,4 +1,4 @@
-# mail > tasks > install_postfix.yml
+# mail > tasks > 01_install_postfix.yml
 ---
 
 - name: set Postfix option hostname
@@ -9,3 +9,5 @@
 
 - name: install postfix
   apt: name=postfix state=present
+  notify:
+    - start postfix

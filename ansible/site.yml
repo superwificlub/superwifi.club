@@ -1,7 +1,7 @@
 # site.yml
 ---
 
-- name: apply config to all nodes
+- name: set up the server generics
   hosts: all
   sudo: yes
   roles:
@@ -10,7 +10,7 @@
 - name: install webserver
   hosts: all
   sudo: yes
-  roles: 
+  roles:
     - web
 
 - name: install mailserver

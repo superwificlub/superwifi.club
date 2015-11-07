@@ -1,0 +1,5 @@
+# mail > handlers > main.yml
+---
+
+- name: start postfix
+  service: name=postfix state=started enabled=yes

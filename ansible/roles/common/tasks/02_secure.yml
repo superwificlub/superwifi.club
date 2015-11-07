@@ -1,12 +1,14 @@
-# common > tasks > secure_box.yml
+# common > tasks > 02_secure.yml
 
 - name: install fail2ban
   apt: name=fail2ban state=present
 
 - name: disallow password login for root over SSH
   action: lineinfile dest=/etc/ssh/sshd_config regexp="^PermitRootLogin" line="PermitRootLogin without-password" state=present
-  notify: restart sshd
+  notify:
+    - restart sshd
 
 - name: disallow su command unless you're root
   action: lineinfile dest=/etc/pam.d/su regexp="^# auth       required   pam_wheel.so$" line="auth       required   pam_wheel.so" state=present
-  notify: restart sshd
+  notify:
+    - restart sshd

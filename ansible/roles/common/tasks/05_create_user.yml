@@ -1,0 +1,8 @@
+# web > tasks > 04_create_user.yml
+- name: create rey user
+  user: name=rey
+        shell=/bin/bash
+        state=present
+
+- name: get rey keys
+  authorized_key: user=rey key=https://github.com/rey.keys state=present

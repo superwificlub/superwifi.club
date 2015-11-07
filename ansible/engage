@@ -1,0 +1,4 @@
+export ANSIBLE_HOST_KEY_CHECKING=False
+export ANSIBLE_NOCOWS=1
+vagrant destroy --force && vagrant up && ansible-playbook site.yml -i hosts_development -k -u vagrant -vvv
+# ansible-playbook site.yml -i hosts_development -k -u vagrant -vvv
