@@ -13,7 +13,7 @@
 - name: create mail folder with permissions 0700
   file: path=/etc/skel/mail state=directory mode=0700
 
-- name: copy dotfiles with permissions 0644
+- name: copy dot files with permissions 0644
   copy: src=files/skel
         dest=/etc
         mode=0644
