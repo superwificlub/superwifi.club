@@ -10,7 +10,6 @@ VISUAL=/usr/bin/vim
 
 # aliases
 alias g='git'
-alias grep='grep --color=auto'
 alias ls='ls -lags'
 alias qq='git status -sb'
 alias sudo='sudo '
