@@ -3,18 +3,21 @@
 
 - name: set up the server generics
   hosts: all
-  sudo: yes
+  become: yes
+  become_user: root
   roles:
     - common
 
 - name: install webserver
   hosts: all
-  sudo: yes
+  become: yes
+  become_user: root
   roles:
     - web
 
 - name: install mailserver
   hosts: all
-  sudo: yes
+  become: yes
+  become_user: root
   roles:
     - mail
