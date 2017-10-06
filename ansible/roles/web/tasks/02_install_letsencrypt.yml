@@ -1,0 +1,13 @@
+# web > tasks > install_letsencrypt.yml
+---
+
+# clone letsencrypt repo
+- name: git clone letsencrypt
+  git: repo=https://github.com/letsencrypt/letsencrypt
+       dest=/opt/letsencrypt
+       accept_hostkey=yes
+
+# install letsencrypt for apache
+#- shell: ./letsencrypt-auto --apache -d {{ ansible_nodename }} -d www.{{ ansible_nodename }}
+#  args:
+#    chdir: /opt/letsencrypt

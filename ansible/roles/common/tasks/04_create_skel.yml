@@ -1,0 +1,19 @@
+# web > tasks > 04_create_skel.yml
+---
+
+- name: create .ssh folder with permissions 0700
+  file: path=/etc/skel/.ssh state=directory mode=0700
+
+- name: create .ssh/authorized_keys file with permissions 0644
+  file: path=/etc/skel/.ssh/authorized_keys state=touch mode=0644
+
+- name: create public_html folder with permissions 0755
+  file: path=/etc/skel/public_html state=directory mode=0755
+
+- name: create mail folder with permissions 0700
+  file: path=/etc/skel/mail state=directory mode=0700
+
+- name: copy dot files with permissions 0644
+  copy: src=files/skel
+        dest=/etc
+        mode=0644

@@ -1,0 +1,23 @@
+# site.yml
+---
+
+- name: set up the server generics
+  hosts: all
+  become: yes
+  become_user: root
+  roles:
+    - common
+
+- name: install webserver
+  hosts: all
+  become: yes
+  become_user: root
+  roles:
+    - web
+
+- name: install mailserver
+  hosts: all
+  become: yes
+  become_user: root
+  roles:
+    - mail

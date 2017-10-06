@@ -1,0 +1,8 @@
+# common > tasks > 01_upgrade.yml
+---
+
+- name: update apt
+  apt: update_cache=yes
+
+- name: upgrade apt
+  apt: upgrade=full

@@ -1,3 +1,0 @@
-# About superwifi.club
-
-TODO

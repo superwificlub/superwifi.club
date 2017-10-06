@@ -1,0 +1,4 @@
+# mail > tasks > main.yml
+---
+
+- include: 01_install_postfix.yml
